@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-secondary text-secondary leading-relaxed bg-white;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-primary font-primary;
+  }
+
+  .h1 {
+    @apply text-[60px] xl:text-[130px] leading-[1] font-bold tracking-tight uppercase;
+  }
+
+  .h2 {
+    @apply text-[44px] xl:text-[72px] leading-[1.1] font-bold uppercase tracking-tight;
+  }
+
+  .lead {
+    @apply text-lg;
+  }
+
+  .btn {
+    @apply min-w-[156px] h-[54px] px-8 bg-accent hover:bg-accent-hover text-white text-[15px] uppercase font-bold tracking-[.15em] transition-all rounded-md flex items-center justify-center;
+  }
+
+  .btn-outline {
+    @apply min-w-[156px] h-[54px] px-8 bg-transparent border-2 border-white text-white text-[15px] uppercase font-bold tracking-[.15em] transition-all hover:bg-white hover:text-primary rounded-md flex items-center justify-center;
+  }
+
+  .btn-primary {
+    @apply min-w-[156px] h-[54px] px-8 bg-primary hover:bg-primary/90 text-white text-[15px] uppercase font-bold tracking-[.15em] transition-all rounded-md flex items-center justify-center;
+  }
+}
+
+/* Swiper custom styles */
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  @apply text-primary !text-[2rem];
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #1a2744;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #c8102e;
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
