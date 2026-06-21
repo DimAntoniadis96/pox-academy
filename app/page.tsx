@@ -17,7 +17,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="h-full overflow-x-hidden">
+    <div className="h-full">
       <div id="home"><Hero /></div>
       <div id="programs"><Programs /></div>
       <div id="about"><About /></div>
