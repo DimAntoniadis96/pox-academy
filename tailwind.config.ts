@@ -24,7 +24,7 @@ const config: Config = {
     extend: {
       colors: {
         primary: {
-          DEFAULT: "#004D98", // Barcelona Navy Blue
+          DEFAULT: "#111111", // Almost black to remove blue tint
         },
         secondary: {
           DEFAULT: "#64748b", // Muted slate
