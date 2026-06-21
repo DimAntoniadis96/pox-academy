@@ -33,7 +33,7 @@ const Header = () => {
             className="relative w-[60px] h-[60px] xl:w-[75px] xl:h-[75px] z-[60]"
           >
             <Image
-              src="/assets/team-logo.png"
+              src="/assets/team-logo-v3.png"
               fill
               alt="Π.Ο. Ξηροκρήνης Logo"
               className="object-contain"

@@ -53,7 +53,7 @@ export const metadata: Metadata = {
       "Η Ακαδημία Ποδοσφαίρου του Π.Ο. Ξηροκρήνης. Από το 1943 διαμορφώνουμε τους αυριανούς ποδοσφαιριστές.",
     images: [
       {
-        url: "/assets/team-logo.png",
+        url: "/assets/team-logo-v3.png",
         width: 1200,
         height: 630,
         alt: "Π.Ο. Ξηροκρήνης Logo",
@@ -65,7 +65,7 @@ export const metadata: Metadata = {
     title: "Π.Ο. Ξηροκρήνης | Ακαδημία Ποδοσφαίρου",
     description:
       "Η Ακαδημία Ποδοσφαίρου του Π.Ο. Ξηροκρήνης. Από το 1943 διαμορφώνουμε τους αυριανούς ποδοσφαιριστές.",
-    images: ["/assets/team-logo.png"],
+    images: ["/assets/team-logo-v3.png"],
   },
   icons: {
     icon: [

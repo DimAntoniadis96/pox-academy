@@ -10,7 +10,7 @@ const Hero = () => {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/assets/academy/hero-bg.png"
+          src="/assets/academy/academy1.png"
           fill
           alt="POX Academy Training"
           className="object-cover"
@@ -42,7 +42,7 @@ const Hero = () => {
           className="relative w-[120px] h-[120px] xl:w-[160px] xl:h-[160px] mb-8"
         >
           <Image
-            src="/assets/team-logo.png"
+            src="/assets/team-logo-v3.png"
             fill
             alt="Π.Ο. Ξηροκρήνης"
             className="object-contain drop-shadow-2xl"
@@ -69,10 +69,10 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.5 }}
           className="font-primary"
         >
-          <span className="text-[50px] md:text-[80px] xl:text-[120px] leading-[1] font-bold block">
+          <span className="text-[50px] md:text-[80px] xl:text-[120px] leading-[1] font-bold block text-white drop-shadow-md">
             Ακαδημία
           </span>
-          <span className="text-[50px] md:text-[80px] xl:text-[120px] leading-[1] font-bold block text-accent">
+          <span className="text-[50px] md:text-[80px] xl:text-[120px] leading-[1] font-bold block text-accent drop-shadow-md">
             Ποδοσφαίρου
           </span>
         </motion.h1>

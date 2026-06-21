@@ -23,7 +23,7 @@ const Footer = () => {
               className="relative w-[80px] h-[80px] block mb-6"
             >
               <Image
-                src="/assets/team-logo.png"
+                src="/assets/team-logo-v3.png"
                 fill
                 alt="Π.Ο. Ξηροκρήνης"
                 className="object-contain"

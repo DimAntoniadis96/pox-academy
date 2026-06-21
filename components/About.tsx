@@ -19,7 +19,7 @@ const About = () => {
             <div className="grid grid-cols-2 gap-4">
               <div className="relative h-[250px] xl:h-[320px] rounded-2xl overflow-hidden">
                 <Image
-                  src="/assets/academy/training-session.png"
+                  src="/assets/academy/academy2.png"
                   fill
                   alt="Προπόνηση"
                   className="object-cover"
@@ -28,7 +28,7 @@ const About = () => {
               </div>
               <div className="relative h-[250px] xl:h-[320px] rounded-2xl overflow-hidden mt-8">
                 <Image
-                  src="/assets/academy/team-celebration.png"
+                  src="/assets/academy/academy3.png"
                   fill
                   alt="Ομαδικότητα"
                   className="object-cover"
@@ -37,7 +37,7 @@ const About = () => {
               </div>
               <div className="relative h-[250px] xl:h-[320px] rounded-2xl overflow-hidden col-span-2">
                 <Image
-                  src="/assets/academy/about-academy.png"
+                  src="/assets/academy/academy4.png"
                   fill
                   alt="Ακαδημία"
                   className="object-cover"
