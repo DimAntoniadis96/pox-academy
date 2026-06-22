@@ -68,11 +68,7 @@ export const metadata: Metadata = {
     images: ["/assets/team-logo-v3.png"],
   },
   icons: {
-    icon: [
-      { url: "/favicon.ico", sizes: "any" },
-      { url: "/favicon.ico", type: "image/x-icon" },
-    ],
-    apple: [{ url: "/favicon.ico", sizes: "180x180", type: "image/x-icon" }],
+    icon: "data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚽</text></svg>",
   },
   robots: {
     index: true,
