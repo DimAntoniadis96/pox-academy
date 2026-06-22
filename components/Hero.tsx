@@ -15,12 +15,12 @@ const Hero = () => {
     offset: ["start start", "end end"],
   });
 
-  // Το λογότυπο ξεκινάει πιο κάτω (25vh) και πάει στο κέντρο. 
+  // Το λογότυπο ξεκινάει πιο κάτω (40vh) και πάει στο κέντρο. 
   // Ολοκληρώνεται στο 70% του scroll (0.7) ώστε να "μείνει" λίγο στο κέντρο πριν κατέβεις.
-  const y = useTransform(scrollYProgress, [0, 0.7], ["25vh", "0vh"]);
+  const y = useTransform(scrollYProgress, [0, 0.7], ["45vh", "0vh"]);
 
-  // Βάζουμε "φρένο" στο ζουμ, σταματώντας στο 4 στο 70% του scroll.
-  const scale = useTransform(scrollYProgress, [0, 0.7], [1, 4]);
+  // Βάζουμε "φρένο" στο ζουμ, σταματώντας στο 3 στο 70% του scroll.
+  const scale = useTransform(scrollYProgress, [0, 0.7], [1, 3]);
   
   // Τα κείμενα εξαφανίζονται πιο ομαλά (μέχρι το 30% του scroll)
   const opacity = useTransform(scrollYProgress, [0, 0.3], [1, 0]);

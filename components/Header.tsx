@@ -47,7 +47,7 @@ const Header = () => {
               { href: "#programs", name: "Τμήματα" },
               { href: "#about", name: "Ακαδημία" },
               { href: "#schedule", name: "Πρόγραμμα" },
-              { href: "#testimonials", name: "Γονείς" },
+              { href: "#why-sports", name: "Αξίες" },
               { href: "#contact", name: "Επικοινωνία" },
             ].map((link, index) => (
               <Link

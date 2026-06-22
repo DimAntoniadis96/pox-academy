@@ -64,6 +64,20 @@ const Contact = () => {
               </div>
             </div>
 
+            {/* Map Section */}
+            <div className="h-[280px] w-full rounded-2xl overflow-hidden shadow-lg border border-slate-100 relative bg-slate-200 mb-8">
+              <iframe
+                src="https://www.google.com/maps?q=Λιγδών+και+Νικολάου+Καπάτου,+Θεσσαλονίκη+54629&output=embed"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen={false}
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Google Map Location"
+              ></iframe>
+            </div>
+
             {/* Social Media */}
             <div className="flex gap-4">
               <a
@@ -175,7 +189,7 @@ const Contact = () => {
               </form>
             </div>
           </motion.div>
-        </div>
+      </div>
       </div>
     </section>
   );

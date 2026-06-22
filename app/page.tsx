@@ -4,7 +4,7 @@ import Hero from "@/components/Hero";
 import Programs from "@/components/Programs";
 import About from "@/components/About";
 import Schedule from "@/components/Schedule";
-import Testimonials from "@/components/Testimonials";
+import WhySports from "@/components/WhySports";
 import Contact from "@/components/Contact";
 
 const Home = () => {
@@ -22,7 +22,7 @@ const Home = () => {
       <div id="programs"><Programs /></div>
       <div id="about"><About /></div>
       <div id="schedule"><Schedule /></div>
-      <div id="testimonials"><Testimonials /></div>
+      <div id="why-sports"><WhySports /></div>
       <div id="contact"><Contact /></div>
     </div>
   );
